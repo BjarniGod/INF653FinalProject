@@ -25,13 +25,10 @@ app.use(express.static(path.join(__dirname, "/public")));
 app.use("/subdir", express.static(path.join(__dirname, "/public")));
 
 // Routes
-// app.use("/", require("./routes/root"));
-// app.use("/register", require("./routes/register"));
-// app.use("/auth", require("./routes/auth"));
-// app.use("/subdir", require("./routes/subdir"));
+app.use("/", require("./routes/root"));
+
 
 // API Route
-// app.use("/employees", require("./routes/api/states"));
 app.use("/states", require("./routes/api/states"));
 
 // Handel un-defined routes
@@ -45,6 +42,7 @@ app.all("*", (req, res) => {
     res.type("txt").send("404 Not Found");
   }
 });
+
 // Error Logger
 app.use(errorHandler);
 
