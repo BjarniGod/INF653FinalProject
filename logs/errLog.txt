@@ -1,0 +1,5 @@
+05-09-2023	09:00:32 	 33a0e65c-01c3-47ba-85ed-3c3ba5cf96cc 	 Error ENOENT: no such file or directory, stat 'D:\Projects\INF653\Final Project\views\index.html' 
+05-09-2023	09:01:01 	 eebbcf1b-0391-4956-a8ae-308cfc22ede7 	 Error ENOENT: no such file or directory, stat 'D:\Projects\INF653\Final Project\views\index.html' 
+05-09-2023	09:01:01 	 0d7bbe07-0df1-4d2a-b28e-51b52728889d 	 Error ENOENT: no such file or directory, stat 'D:\Projects\INF653\Final Project\views\404.html' 
+05-09-2023	09:01:33 	 5f64c5e7-5e4a-4468-91ef-961725592dc7 	 Error ENOENT: no such file or directory, stat 'D:\Projects\INF653\Final Project\views\subdir\index.html' 
+05-10-2023	12:32:05 	 61f91980-6cbd-48d6-b202-db271766fd5c 	 SyntaxError Unexpected number in JSON at position 7 
